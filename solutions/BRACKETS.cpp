@@ -1,25 +1,56 @@
+/******************************************************************************
+Link: BRACKETS
+Code: BRACKETS
+Time (YYYY-MM-DD-hh.mm.ss): 2024-12-10-20.41.48
+*******************************************************************************/
 #include<bits/stdc++.h>
-#define endl '\n'
-#define pb push_back
 using namespace std;
 
-signed main(){
-    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-    freopen("BRACKETS.INP","r",stdin);freopen("BRACKETS.OUT","w",stdout);
-    int n;cin>>n;
-    char R[2*n]={};
+string s;
+int n;
 
-    int p=0,np=0;
-    for(int i=0;i<n;i++){
-        int k;cin>>k;
-        while(R[p]!=0)p++;
-        R[p]='(';
-        R[p+k+1]=')';
-        //np=max(np,p+k+1);
-        p++;
-        //for(int p:R)cout<<(p==0?'-':(p==1?'(':')'));cout<<endl;
+bool check(int idx,int len){
+    stack<char>sta;
+    for(int i=idx;i<=idx+len-1;++i){
+        if(s[i]==')'){
+            if(sta.empty())return false;
+            if(sta.top()!='(')return false;
+            sta.pop();
+        }
+        else if(s[i]==']'){
+            if(sta.empty())return false;
+            if(sta.top()!='[')return false;
+            sta.pop();
+        }
+        else if(s[i]=='}'){
+            if(sta.empty())return false;
+            if(sta.top()!='{')return false;
+            sta.pop();
+        }
+        else{
+            sta.push(s[i]);
+        }
     }
-    for(char p:R)cout<<p;
-    //for(int p:R)cout<<p;
+    return sta.size()==0;
+}
+
+bool solve(){
+    if(n==0)return true;
+
+    for(int i=0;i<n;++i){
+        if(check(i,n))return true;
+    }
+    return false;
+}
+
+signed main(){
+    ios_base::sync_with_stdio(0);cin.tie(0);
+    freopen("BRACKETS.INP","r",stdin);
+    freopen("BRACKETS.OUT","w",stdout);
+    cin>>s;
+    n=s.size();
+    s+=s;
+
+    cout<<(solve()?"Yes\n":"No\n");
     return 0;
 }
