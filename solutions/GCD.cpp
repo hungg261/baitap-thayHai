@@ -40,7 +40,7 @@ void solve(){
 
 signed main(){
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-//    freopen("GCD.INP","r",stdin);freopen("GCD.OUT","w",stdout);
+    freopen("GCD.INP","r",stdin);freopen("GCD.OUT","w",stdout);
     cin>>n;
     for(int i=1;i<=n;++i)cin>>A[i];
 

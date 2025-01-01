@@ -17,7 +17,7 @@ int solve(unordered_map<char,int>&A,unordered_map<char,int>&B){
 
 signed main(){
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-    // freopen("AD.INP","r",stdin);freopen("AD.OUT","w",stdout);
+    freopen("AD.INP","r",stdin);freopen("AD.OUT","w",stdout);
     unordered_map<char,int>A,B;
     int sa=0,sb=0;
     char q;
