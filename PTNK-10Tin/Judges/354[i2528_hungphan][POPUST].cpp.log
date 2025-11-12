@@ -1,0 +1,20 @@
+ ﻿i2528_hungphan‣POPUST: 0.00
+POPUST.cpp
+"C:\Program Files (x86)\Themis\gcc\bin\g++.exe" -std=c++14 "POPUST.cpp" -pipe -O2 -s -static -lm -x c++ -o"POPUST.exe" -Wl,--stack,66060288|@WorkDir=C:\ProgramData\ThemisWorkSpace\WaitRoom53016\
+Dịch thành công.
+
+i2528_hungphan‣POPUST‣test01: 0.00
+Thời gian ≈ 0.033612700 giây
+Không thấy file kết quả
+i2528_hungphan‣POPUST‣test02: 0.00
+Thời gian ≈ 0.031670400 giây
+Không thấy file kết quả
+i2528_hungphan‣POPUST‣test03: 0.00
+Thời gian ≈ 0.033150200 giây
+Không thấy file kết quả
+i2528_hungphan‣POPUST‣test04: 0.00
+Thời gian ≈ 0.033284900 giây
+Không thấy file kết quả
+i2528_hungphan‣POPUST‣test05: 0.00
+Thời gian ≈ 0.029942700 giây
+Không thấy file kết quả
