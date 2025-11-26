@@ -1,0 +1,155 @@
+ ﻿i2528_hungphan‣FOOD: 22.00
+FOOD.cpp
+"C:\Program Files (x86)\Themis\gcc\bin\g++.exe" -std=c++14 "FOOD.cpp" -pipe -O2 -s -static -lm -x c++ -o"FOOD.exe" -Wl,--stack,66060288|@WorkDir=C:\ProgramData\ThemisWorkSpace\WaitRoom37052\
+Dịch thành công.
+
+i2528_hungphan‣FOOD‣Test01: 0.00
+Thời gian ≈ 0.033479900 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test02: 2.00
+Thời gian ≈ 0.031446800 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test03: 2.00
+Thời gian ≈ 0.032141800 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test04: 2.00
+Thời gian ≈ 0.029267500 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test05: 2.00
+Thời gian ≈ 0.033807400 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test06: 0.00
+Thời gian ≈ 0.094557800 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test07: 2.00
+Thời gian ≈ 0.086506700 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test08: 2.00
+Thời gian ≈ 0.076019300 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test09: 0.00
+Thời gian ≈ 0.087166800 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test10: 0.00
+Thời gian ≈ 0.071113100 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test11: 2.00
+Thời gian ≈ 0.069338300 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test12: 2.00
+Thời gian ≈ 0.069134100 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test13: 2.00
+Thời gian ≈ 0.071719400 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test14: 2.00
+Thời gian ≈ 0.070571400 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test15: 2.00
+Thời gian ≈ 0.071104800 giây
+Kết quả khớp đáp án!
+i2528_hungphan‣FOOD‣Test16: 0.00
+Thời gian ≈ 0.074097600 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test17: 0.00
+Thời gian ≈ 0.073726500 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test18: 0.00
+Thời gian ≈ 0.069735300 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test19: 0.00
+Thời gian ≈ 0.074372400 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test20: 0.00
+Thời gian ≈ 0.071120800 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test21: 0.00
+Thời gian ≈ 0.059937200 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test22: 0.00
+Thời gian ≈ 0.062369100 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test23: 0.00
+Thời gian ≈ 0.069432000 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test24: 0.00
+Thời gian ≈ 0.066224700 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test25: 0.00
+Thời gian ≈ 0.087476700 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test26: 0.00
+Thời gian ≈ 0.060324600 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test27: 0.00
+Thời gian ≈ 0.064460500 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test28: 0.00
+Thời gian ≈ 0.086673800 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test29: 0.00
+Thời gian ≈ 0.066717200 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test30: 0.00
+Thời gian ≈ 0.070873200 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test31: 0.00
+Thời gian ≈ 0.058755700 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test32: 0.00
+Thời gian ≈ 0.057930700 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test33: 0.00
+Thời gian ≈ 0.071886000 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test34: 0.00
+Thời gian ≈ 0.075487900 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test35: 0.00
+Thời gian ≈ 0.061978900 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test36: 0.00
+Thời gian ≈ 0.075720400 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test37: 0.00
+Thời gian ≈ 0.043522600 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test38: 0.00
+Thời gian ≈ 0.069509000 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test39: 0.00
+Thời gian ≈ 0.064775400 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test40: 0.00
+Thời gian ≈ 0.074081500 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test41: 0.00
+Thời gian ≈ 0.067320700 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test42: 0.00
+Thời gian ≈ 0.066648400 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test43: 0.00
+Thời gian ≈ 0.063430200 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test44: 0.00
+Thời gian ≈ 0.059175500 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test45: 0.00
+Thời gian ≈ 0.049892800 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test46: 0.00
+Thời gian ≈ 0.072459800 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test47: 0.00
+Thời gian ≈ 0.053705800 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test48: 0.00
+Thời gian ≈ 0.073797200 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test49: 0.00
+Thời gian ≈ 0.058663600 giây
+Kết quả KHÁC đáp án!
+i2528_hungphan‣FOOD‣Test50: 0.00
+Thời gian ≈ 0.066037700 giây
+Kết quả KHÁC đáp án!
