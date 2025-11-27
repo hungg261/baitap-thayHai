@@ -1,6 +1,6 @@
-# baitap-PTNK
+# baitap-thayHai
 
-code bai tap thay TPH va bai tap cua lop 10 Tin PTNK.
+Bai tap thay Hai
 
 <hr>
 
