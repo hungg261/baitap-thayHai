@@ -1,12 +1,49 @@
+// BT_HungPhan_03102025
+/******************************************************************************
+Link: SEQUENCE
+Code: SEQUENCE
+Time (YYYY-MM-DD-hh.mm.ss): 2025-03-17-20.24.50
+*******************************************************************************/
 #include<bits/stdc++.h>
-#define endl '\n'
+#define int long long
 using namespace std;
 
-int cy[81]={10,3,5,7,9,11,13,33,35,55,57,77,79,99,101,103,303,305,505,507,707,709,909,911,121,123,323,325,525,527,727,729,929,931,141,143,343,345,545,547,747,749,949,951,161,163,363,365,565,567,767,769,969,971,181,183,383,385,585,587,787,789,989,991,201,104,403,306,605,508,807,710,19,93,41,16,63,38,85,60,8};
-int main(){
-    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-    freopen("SEQUENCE.INP","r",stdin);freopen("SEQUENCE.OUT","w",stdout);
-    long long n;
-    while(cin>>n)cout<<(n==1?1:cy[(n-1)%81])<<endl;
+int tknp(int target){
+    int l=1,h=1414214,res=0;
+    while(l<=h){
+        int mid=(l+h)/2;
+        if(mid*(mid+1)/2>=target){
+            res=mid;
+            h=mid-1;
+        }
+        else l=mid+1;
+    }
+    return res;
+}
+
+void solve(int n){
+    int range=tknp(n);
+
+    int last=0;
+    for(int i=1;i<range;++i){
+        int start=(last/i+1)*i;
+        last=start+i*(i-1);
+    }
+
+    int start=(last/range+1)*range;
+    int idx=n-range*(range-1)/2;
+
+    int ans=start+range*(idx-1);
+    cout<<ans<<'\n';
+}
+
+signed main(){
+    ios_base::sync_with_stdio(0);cin.tie(0);
+    freopen("SEQUENCE.INP","r",stdin);
+    freopen("SEQUENCE.OUT","w",stdout);
+    int n;
+    cin>>n;
+
+    solve(n);
     return 0;
 }
